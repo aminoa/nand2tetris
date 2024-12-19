@@ -1,3 +1,15 @@
+# Summary
+
+- Start with assumption of the nand gate (two inputs, NANDed together).
+- Can construct building blocks AND, OR, and NOT via Demorgan's Law
+    - You can construct any boolean function with just AND and NOT
+- Buses: grouping set of bits
+- Multiplexer: a selector, you have two inputs and a sel, the multiplexor will output A or B based on what the selector is set to
+- Demultiplexer: with three inputs (in val, A, B) and a sel; based on the sel, the in will be sent to A or B and the other values will be 0d. 
+    - Summary: a mux generates a single output whereas a demux generates multiple outputs (of 0 and the in value) 
+        - they both have multiple inputs though (demux has an extra 'input' thing).
+    - -Way: the number of outputs 
+
 # Boolean Logic
 
 - And, or, not
